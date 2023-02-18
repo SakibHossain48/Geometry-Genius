@@ -5,7 +5,6 @@ function getValueFromInput(id){
     const inputValue = parseFloat(inputValueString);
     return inputValue;
 }
-
 //set value function
 function setValueInText (id,returnValue){
     const mainId = document.getElementById(id)
@@ -23,7 +22,7 @@ function setValueFormula (input1,input2,setValue1,setValue2){
     formulaB.innerText = setValue2;
 }
 
-//new element adder 
+//new element adder function 
 let value = 0;
 function newElementAdd (area , areaName){
     const areaContainer = document.getElementById('table-container');
